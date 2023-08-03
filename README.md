@@ -22,6 +22,6 @@ This plugin works with float/double precision on windows/linux.
 - use cmake to build. For example for debug-double use this commands
 ```
 cmake -B ./build-debug-double -S source/plugins/Gorbatov/CameraSwitcher -DUNIGINE_DOUBLE=1 -DCMAKE_BUILD_TYPE=Debug
-cmake --build ./build
+cmake --build ./build-debug-double
 ```
 
